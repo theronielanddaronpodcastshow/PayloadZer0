@@ -1,0 +1,20 @@
+# Target hosts for KEV scanning
+# One host per line
+# Supports: URLs, IPs, domains, IP ranges (CIDR)
+
+# Web Applications
+https://app.example.com
+https://portal.example.com
+https://api.example.com
+
+# Internal Hosts
+192.168.1.10
+192.168.1.20
+10.10.10.50
+
+# Domains (Nuclei will handle protocol detection)
+mail.example.com
+vpn.example.com
+
+# CIDR ranges (if Nuclei supports)
+# 10.0.0.0/24
